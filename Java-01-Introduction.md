@@ -138,6 +138,13 @@ int a=5;
 System.out.println(a);
 System.out.println("a");
 ```
+# int a=5
+
+
+1. We are telling the computer that we are going to use "a" as the name of a variable
+2. We are telling the computer that it will be an integer - it will not have any decimals
+3. the "=" symbol is not a normal equals operator.  It is an assignment operator.  It means take the number 5 and store it in the variable a.
+
 # Here is a sample program:
 
 ```
