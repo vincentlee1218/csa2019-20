@@ -163,10 +163,10 @@ In the program we just created in Repl.it:
 "Main" is the name of the file and corresponds to the file name (in this case, Main.java).
 
 `public static` are modifiers. `public` shows that you have a public object. \
-Public means that the method can be called from anywhere. Private means that the method can only be called from its own class. \
+Public means that the method can be called from anywhere. Private means that the method can only be called from its own class. These two terms are used in access control. \
 Static means that the method can be accessed without an instance of the class. Static methods don't need to be invoked on the object and that is when you use it. Example: your Main() is a static and you don't create an object to call it.
 
-`void` is a return type ofthe method. A method must return a variable of the type that is specified. \
+`void` is a return type of the method. A method must return a variable of the type that is specified. \
 So if you have `public static int` for a method that method will have to return a variable of type int. \
 However, `void` methods (such as the Main() method) do not return a variable in respond to its call, hence the name void.
 
