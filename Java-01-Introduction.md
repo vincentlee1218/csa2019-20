@@ -32,7 +32,7 @@ can also be written like this.
 
 `{  int a=5;int b=7;int c=5+a; }`
 
-It is easy to understand code using identation (four spaces). Group them with braces, finish commands with semicolons.
+It is easy to understand code using indentation (four spaces). Group them with braces, finish commands with semicolons.
 
 # Java Programs
 
