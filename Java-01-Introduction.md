@@ -153,3 +153,35 @@ Now write `public static void main(String[] args)` five times.
 https://repl.it/student/classrooms/77487
 
 https://repl.it/student/classrooms/142817
+
+# so what's going on?
+
+In the program we just created in Repl.it:
+
+`class` is the class that is necessary for a program to run. The name of the class has to match with the file name, or it won't execute properly.
+
+"Main" is the name of the file and corresponds to Main.java
+
+`public static` are modifiers. `public` shows that you have a public object. \
+Public means that the method can be called from anywhere. Private means that the method can only be called from its own class. \
+Static means that the method can be accessed without an instance of the class. Static methods don't need to be invoked on the object and that is when you use it. Example: your Main() is a static and you don't create an object to call it.
+
+`void` is a return type ofthe method. A method must return a variable of the type that is specified. \
+So if you have `public static int` for a method that method will have to return a variable of type int. \
+However, `void` methods (such as the Main() method) do not return a variable in respond to its call.
+
+The second `main` in this program is the method name. The main method in the file is the first method that Java will execute in a file. You can create other methods in a class (file) by creating a method, say `public static void NewMethod(args) {` and then using the call method function `NewMethod(args)`. The arguments used in a method will be described later in the text.
+
+`String[] args` means the method accepts an array of strings. Arguments for other methods may vary and are found inside the parentheses of a method signature. \
+If a method name has `(int a, double b)` in its method signature, the method takes in an integer variable a and a double variable b. \
+These arguments serve another purpose: When two methods have the same name, but different sets of arguments (in type and/or order and/or number of arguments), Java can tell which method is being called. This is called overloading a static method.
+
+Both the `class` and `void` methods have brace to enclose the groups, as you can see. Now let's take a look at the next command.
+
+Inside the System.out.println() command, `System` is a static class that Java calls. `out` refers to the output stream in this class. `println()` is a method within the System.out class stream. What goes inside the parentheses is the contnet that has to be printed as output. This can vary from variables, to numbers, to strings, or a combination of these.
+
+A semicolon ends the command most of the time. The combination of braces, parentheses, and semicolons allows a Java program to be written on just one line and/or without spaces or tabs. Python, however, utilizes the spacing and line breaks to read the program, so the spacing and lines are necessary in that language. 
+
+To declare a variable, use `vartype varname = value;`. The `vartype` is the variable type, such as int or String. The `varname` can be a normal name, however it must follow some special conventions, including no spaces, cannot start with a number, and certain punctuation marks only. Remember the semicolon ends the command.
+
+Over this course, we will go over many examples that apply these terms.
