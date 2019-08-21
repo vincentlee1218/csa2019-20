@@ -10,7 +10,7 @@ if (true)
     System.out.println("So True");
 } else
 {
-System.out.println("Not Really");
+    System.out.println("Not Really");
 }
 ```
 
@@ -53,7 +53,7 @@ Sop("Not Really");
 # Let's try input
 ```
 import java.util.Scanner;
-class Main{
+class Zion{
     psvm{
         Sop("Type in a number");
         Scanner  s = new Scanner(System.in);
