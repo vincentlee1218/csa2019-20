@@ -169,18 +169,18 @@ In the program we just created in Repl.it:
 
 "Main" is the name of the file and corresponds to the file name (in this case, Main.java).
 
-`public static` are modifiers. `public` shows that you have a public object. \
-Public means that the method can be called from anywhere. Private means that the method can only be called from its own class. These two terms are used in access control. \
+`public static` are modifiers. `public` shows that you have a public object.  
+Public means that the method can be called from anywhere. Private means that the method can only be called from its own class. These two terms are used in access control.  
 Static means that the method can be accessed without an instance of the class. Static methods don't need to be invoked on the object and that is when you use it. Example: your Main() is a static and you don't create an object to call it.
 
-`void` is a return type of the method. A method must return a variable of the type that is specified. \
-So if you have `public static int` for a method that method will have to return a variable of type int. \
+`void` is a return type of the method. A method must return a variable of the type that is specified.  
+So if you have `public static int` for a method that method will have to return a variable of type int.  
 However, `void` methods (such as the Main() method) do not return a variable in respond to its call, hence the name void.
 
 The second `main` in this program is the method name. The main method in the file is the first method that Java will execute in a file. You can create other methods in a class (file) by creating a method, say `public static void NewMethod(args) {` and then using the call method function `NewMethod(args)`. The arguments used in a method will be described later in the text.
 
-`String[] args` means the method accepts an array of strings. Arguments for other methods may vary and are found inside the parentheses of a method signature. \
-If a method name has `(int a, double b)` in its method signature, the method takes in an integer variable a and a double variable b. \
+`String[] args` means the method accepts an array of strings. Arguments for other methods may vary and are found inside the parentheses of a method signature.  
+If a method name has `(int a, double b)` in its method signature, the method takes in an integer variable a and a double variable b.  
 These arguments serve another purpose: When two methods have the same name, but different sets of arguments (in type and/or order and/or number of arguments), Java can tell which method is being called. This is called overloading a static method.
 
 Both the `class` and `void` methods have brace to enclose the groups, as you can see. Now let's take a look at the next command.
