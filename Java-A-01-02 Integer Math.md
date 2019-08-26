@@ -37,7 +37,7 @@ X-=5   short cut for x=x-5
 x/=5   short cut for x=x/5
 x*=5   short cut for x=x*5
 x++ short cut for x=x+1
-X– short cut for x=x-1
+X–- short cut for x=x-1
 ++x and --x also exist but are beyond the scope of this course.
 ```
 
