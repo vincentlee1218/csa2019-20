@@ -70,7 +70,7 @@ luckyNumber = 13;
 * Class names (we'll learn about classes soon) begin with an upper case letter.  Example: `Pokemon, Student, Automobile`
 * No underscores in identifiers—use camelCase for multi-word variables
   * Prefer:       `laserDamage`
-  * Avoid:        `laser_damage   (this is from C/C++)`
+  * Avoid:        `laser_Damage   (this is from C/C++)`
 
 # Scope!!!!!!!!
 
@@ -78,7 +78,7 @@ luckyNumber = 13;
 ```
 {
     int   numberOfBurgers=10;
-    numberofBurgers=12;
+    numberOfBurgers=12;
 
     {
         numberOfBurgers=300;
