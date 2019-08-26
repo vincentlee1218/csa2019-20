@@ -34,7 +34,7 @@
 
 * If you want to store a value in a variable, you have to first tell Java what kind of value will be stored in that variable. 
 * This is called a declaration, which is often at the beginning of a section of code.
-* So to store the value 13 in a variable called luckyNumber, you first have to declare the variable and the type of data that you'll be storing in it:
+* So to store the value 13 in a variable called `luckyNumber`, you first have to declare the variable and the type of data that you'll be storing in it:
 * `int luckyNumber; // declare that luckyNumber will be "storing" an integer`
 # Assigning Values to variables
 
@@ -46,7 +46,7 @@
 
 * If you want to change the value that a variable refers to, use the equals sign again:
 * `luckyNumber = 12;     // variable is already declared, don't need to do it again!`
-* Whatever value was stored in luckyNumber before is no longer available to us. We have overwritten its value with this new, updated value.
+* Whatever value was stored in `luckyNumber` before is no longer available to us. We have overwritten its value with this new, updated value.
 
 # Assigning during declarations
 
